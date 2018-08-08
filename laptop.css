@@ -1,0 +1,244 @@
+/*Screen css*/
+
+.laptop-container {
+    width: 1500px;
+    height: 2000px;
+}
+
+.border-laptop {
+    border : 1px solid black;
+    border-radius: 35px;
+    background-color: black;
+    box-shadow: 0px 0px 20px 10px dimgray inset;
+}
+
+.screen-container {
+    height: 50%;
+    width:100%;
+    
+}
+
+.keyboard-container {
+    height: 50%;
+    width: 100%;
+}
+
+.webcam-holder {
+    width: 100%;
+    height:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaper-holder {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.wallpaper {
+    height: 100%;
+    width:95%;
+    padding: 0px 10px;
+    background-image: url("win-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px 5px dimgray inset;
+    border-radius: 10px
+}
+
+.lap-logo-holder {
+    width: 100%;
+    height:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-font {
+    color: darkgrey;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.rotate-e {
+    transform: rotate(-45deg);
+}
+
+.sensor {
+    width: 2px;
+    height: 2px;
+    border-radius: 1px;
+    border: 1px solid white;
+    
+}
+
+.webcam-icon {
+    width: 24px;
+    height: 24px;
+    padding: 0px 5px;
+    background-image: url("webcam.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*KeyBoard Container*/
+.hinge-holder {
+    width :100%;
+    height : 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-left-80 {
+    margin-left: 80px;
+}
+
+.margin-right-80 {
+    margin-right: 80px;
+}
+.hinge {
+     width: 150px;
+     height: 100%;
+     border-radius: 10px;    
+     box-shadow: 0px 0px 30px 10px dimgray inset;
+}
+
+.power-holder {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.power-button {
+    margin-right: 80px;
+    width: 60px;
+    height: 60px;
+    border-radius : 30px;
+    border: 1px solid dimgray;
+    box-shadow: 0px 0px 20px 5px dimgray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.power-button:after {
+    content:'';
+    width:5px;
+    height:30px;
+    border:3px solid white;
+    box-sizing: border-box;
+}
+
+.keyboard-holder {
+
+    height: 40%;
+    border: 2px solid red;    
+    padding: 0px 80px;
+    display: flex;
+}
+
+.alpha-num {
+    border: 2px solid white;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alpha-num-rows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.alpha-num-keys {
+    width:55px;
+    height:55px;
+    border-radius: 08px;
+    box-shadow: 0px 0px 15px 2px red inset;
+    border: 2px solid red;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.fun-label {
+    font-family: sans-serif;
+    color: white;
+    margin: 8px 0px 0px 5px;
+    font-size: 12px
+}
+
+.hor-ver-center {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+.backspace-width {
+    width:110px;
+    display:flex;
+}
+
+.alpha-center {
+    width: 100%;
+    height:100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-width {
+    width :110px;
+}
+
+.spcl-char-keys-width {
+    width:70px;
+}
+
+.caps-lock-width {
+    width:130px;
+}
+.enter-width {
+    width: 130px;
+}
+
+.numpad {
+    margin-left: 1%;
+    width: 20%;
+    height:100%;
+    border: solid 2px blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-content: space-between
+}
+
+.plus-width {
+    grid-area: 3 / 4 / span 2;
+}
+.height-100 {
+    height: 100%;
+}
+.enter-num-width {
+    grid-area : 5 / 4 / span 2;
+}
+
+.o-width {
+    grid-area: 6/ 1 / span 1 / span 2;
+    width:100%
+}
